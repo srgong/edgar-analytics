@@ -5,6 +5,7 @@ import java.util.*;
 /**
  * Created by Sharon on 2/14/19.
  * This class creates sessions from streaming input and delivers metrics when sessions end.
+ * When no further input stream is detected, all sessions are ended and metrics are returned.
  */
 public class EdgarMetrics {
     Map<String, Session> hm = new LinkedHashMap<>();
