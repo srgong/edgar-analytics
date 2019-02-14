@@ -1,0 +1,8 @@
+.gradle/
+.idea/
+images/
+META-INF/
+target/
+*.iml
+*.ipr
+*.iws
